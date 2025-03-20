@@ -1,1 +1,1 @@
-console.log('Welcome to my GitHub Pages site!');
+console.log('Hello!');
