@@ -3,24 +3,24 @@ body {
   margin: 0;
   padding: 0;
   background-color: #d3d3d3;
-  font-size: 22px;
+  font-size: 24px;
 }
 
 h1 { 
-  font-family: Bricolage Grotesque;
-  font-size: 25px;
+  font-family: Times New Roman;
+  font-size: 37px;
   text-align: center;
   color: darkslategrey;
   
 }
 
 header {
-  font-family: Edu NSW ACT Foundation ;
+  font-family: Times New Roman ;
   background-color: darkslategrey;
   color: #F5F5F4;
   text-align: center;
   padding: 20px;
-  font-size: 40px;
+  font-size: 50px;
 }
 
 header img {
