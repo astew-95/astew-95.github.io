@@ -2,25 +2,46 @@ body {
   font-family: Abel;
   margin: 0;
   padding: 0;
-  background-color: #d3d3d3;
-  font-size: 29px;
+  background-color: lightgrey;
+  font-size: 21px;
 }
 
 h1 { 
-  font-family: Times New Roman;
-  font-size: 34px;
+  font-family: Noto Serif;
+  font-size: 25px;
   text-align: center;
   color: darkslategrey;
-  
+  line-height: 1.0
+
+}
+
+h2 { 
+  font-family: Noto Serif;
+  font-size: 20px;
+}
+
+
+h4 {
+
+  font-family: Noto Serif;
+  font-size: 21px;
+  text-align: center;
+  color: darkslategrey;
+  line-height: 1.0
+
+
 }
 
 header {
-  font-family: Times New Roman ;
+  font-family: Nunito Sans;
   background-color: darkslategrey;
   color: #F5F5F4;
   text-align: center;
-  padding: 20px;
-  font-size: 50px;
+  padding: 4px;
+  font-size: 24px;
+  height: 200px
+ line-height: 0.5
+margin: 10px;
 }
 
 header img {
@@ -29,15 +50,43 @@ header img {
 
 section {
   padding: 20px;
-  margin: 20px;
+  margin: 10px;
   background-color: white;
-  border-radius: 8px;
+  border-radius: 10px;
+  line-height: 1.2
 }
 
 footer {
   text-align: center;
   padding: 10px;
   background-color: azure;
-  color: white;
-  font-size: 20px;
+  color: black;
+  font-size: 19px;
 }
+
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+  <!-- height: 130px; -->
+}
+
+.left {
+  width: 34%;
+}
+
+.right {
+  width: 66%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+p.boxedlarge {outline-style: none; background-color: white; padding: 10px; margin: 5px; border: 1px solid #3B5052; width: 120px; border-radius: 5px; font-size:18px; display:inline;  line-height: 3; letter-spacing:1.7px, text-weight: bold}
