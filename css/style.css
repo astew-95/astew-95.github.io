@@ -89,4 +89,4 @@ footer {
   clear: both;
 }
 
-p.boxedlarge {outline-style: none; background-color: white; padding: 10px; margin: 5px; border: 1px solid #3B5052; width: 120px; border-radius: 5px; font-size:18px; display:inline;  line-height: 3; letter-spacing:1.7px, text-weight: bold}
+p.boxedlarge {outline-style: none; background-color: #DBECF3; padding: 10px; margin: 5px; border: 1px solid #3B5052; width: 120px; border-radius: 5px; font-size:18px; display:inline;  line-height: 3; letter-spacing:1.7px, text-weight: bold}
