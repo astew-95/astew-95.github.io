@@ -39,8 +39,8 @@ header {
   text-align: center;
   padding: 4px;
   font-size: 24px;
-  height: 200px
- line-height: 0.5
+  height: 200px;
+ line-height: 0.5;
 margin: 10px;
 }
 
@@ -73,14 +73,6 @@ footer {
   float: left;
   padding: 10px;
   <!-- height: 130px; -->
-}
-
-.left {
-  width: 34%;
-}
-
-.right {
-  width: 66%;
 }
 
 .row:after {
